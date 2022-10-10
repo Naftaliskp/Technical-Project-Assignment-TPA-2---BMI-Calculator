@@ -1,0 +1,45 @@
+body{
+    color: rgb(12, 8, 11);
+    font-family: 'Catamaran', sans-serif;
+    background: linear-gradient(to right, #7b7b7b, #f093dd);
+}
+span{
+    color: red;
+}
+.box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%, -50%);
+    padding: 15px;
+    width: 60%;
+    background: rgb(206, 136, 215);
+    border-radius: 8px;
+    box-shadow: rgb(94, 41, 81) 0px 20px 30px -10px;
+}
+
+input{
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    width:45%;
+    height: 20px;
+    background-color: rgb(250, 225, 244);
+    margin-top: 5px;
+}
+button{
+    color: rgb(243, 220, 255);
+    padding: 10px;
+    font-size: medium;
+    border: 2px solid rgb(122, 82, 117);
+    border-radius: 15px;
+    width : 35%;
+    background: rgb(49, 46, 49);
+    display: block;
+    margin-top: 5%;
+    cursor: pointer;
+}
+span{
+    color:#4c2524;
+}
